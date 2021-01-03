@@ -6,7 +6,6 @@ headers_useragents=[]
 headers_referers=[]
 request_counter=0
 flag=0
-safe=0
 logo='''
     __  ____    __
    /  \/    \__/  \ 
@@ -1444,7 +1443,6 @@ else:
 	else:
 		print "-- Attack Started --"
 		print logo
-		if len(sys.argv)== 3:
 		url = sys.argv[1]
 		if url.count("/")==2:
 			url = url + "/"
